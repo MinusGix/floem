@@ -4,6 +4,9 @@ pub use click::*;
 mod double_click;
 pub use double_click::*;
 
+pub mod hover;
+pub use hover::*;
+
 mod label;
 pub use label::*;
 
