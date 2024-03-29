@@ -1,0 +1,12 @@
+[package]
+name = "floem_dylib"
+version.workspace = true
+edition = "2021"
+description = "Crate to make floem be dynamically linked"
+license.workspace = true
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+floem_internal = { path = "../floem_internal", default-features = false }
